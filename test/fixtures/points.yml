@@ -1,0 +1,1480 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+point0:
+    glass: true
+    id: 1
+    lat: "46.768001"
+    lng: "23.629711"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000588116399"
+    website: ""
+
+point1:
+    glass: false
+    id: 2
+    lat: "45.668185"
+    lng: "25.633055"
+    metal: true
+    name: "S.C. Remat Brasov S.A."
+    other: "Acumulatori auto, Cauciuc"
+    paper: true
+    plastic: true
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: "http://www.rematbv-ro.innovativegroup.ro/"
+
+point2:
+    glass: false
+    id: 3
+    lat: "45.788838"
+    lng: "24.178709"
+    metal: true
+    name: "S.C. Remat Brasov S.A."
+    other: "Acumulatori auto, Cauciuc"
+    paper: true
+    plastic: true
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: "http://www.rematbv-ro.innovativegroup.ro/"
+
+point3:
+    glass: false
+    id: 4
+    lat: "46.766382"
+    lng: "23.554484"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000486754290"
+    website: ""
+
+point4:
+    glass: false
+    id: 5
+    lat: "46.7248"
+    lng: "23.609619"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000486754290"
+    website: ""
+
+point5:
+    glass: false
+    id: 6
+    lat: "46.768411"
+    lng: "23.579257"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000486754290"
+    website: ""
+
+point6:
+    glass: false
+    id: 7
+    lat: "46.767426"
+    lng: "23.575169"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000486754290"
+    website: ""
+
+point7:
+    glass: false
+    id: 8
+    lat: "47.125204"
+    lng: "24.485555"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000106824478"
+    website: ""
+
+point8:
+    glass: false
+    id: 9
+    lat: "46.759029"
+    lng: "23.5515"
+    metal: false
+    name: ""
+    other: "Haine"
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000106824478"
+    website: ""
+
+point9:
+    glass: true
+    id: 11
+    lat: "46.782114"
+    lng: "23.629504"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001148826122"
+    website: ""
+
+point10:
+    glass: false
+    id: 12
+    lat: "46.773632"
+    lng: "23.620954"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001148826122"
+    website: ""
+
+point11:
+    glass: true
+    id: 13
+    lat: "46.754123"
+    lng: "23.584707"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000015697303"
+    website: ""
+
+point12:
+    glass: true
+    id: 14
+    lat: "46.754123"
+    lng: "23.584707"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000015697303"
+    website: ""
+
+point13:
+    glass: true
+    id: 15
+    lat: "46.759562"
+    lng: "23.589792"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000015697303"
+    website: ""
+
+point14:
+    glass: false
+    id: 16
+    lat: "46.756034"
+    lng: "23.583527"
+    metal: false
+    name: "Profi City"
+    other: "Baterii, Becuri, Aparate electronice mici"
+    paper: false
+    plastic: false
+    point_type: 2
+    schedule_sat: "07-20"
+    schedule_sun: "07-20"
+    schedule_week: "07-22"
+    user_uid: "100000015697303"
+    website: ""
+
+point15:
+    glass: true
+    id: 17
+    lat: "46.758312"
+    lng: "23.540091"
+    metal: false
+    name: "Hypermarket CORA"
+    other: "Aparat de colectat PET-uri și doze de aluminiu (un PET = 0,05 lei, o doză = 0,03 lei)."
+    paper: true
+    plastic: true
+    point_type: 2
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001393266743"
+    website: ""
+
+point16:
+    glass: true
+    id: 18
+    lat: "46.783203"
+    lng: "23.584304"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point17:
+    glass: false
+    id: 19
+    lat: "46.774451"
+    lng: "23.586209"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point18:
+    glass: true
+    id: 20
+    lat: "46.783559"
+    lng: "23.585777"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point19:
+    glass: false
+    id: 21
+    lat: "46.776903"
+    lng: "23.586998"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point20:
+    glass: false
+    id: 22
+    lat: "46.770169"
+    lng: "23.572473"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point21:
+    glass: false
+    id: 23
+    lat: "46.771516"
+    lng: "23.577208"
+    metal: true
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point22:
+    glass: false
+    id: 24
+    lat: "46.76793"
+    lng: "23.598327"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point23:
+    glass: false
+    id: 25
+    lat: "46.767881"
+    lng: "23.602176"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point24:
+    glass: true
+    id: 26
+    lat: "46.76938"
+    lng: "23.60941"
+    metal: true
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point25:
+    glass: false
+    id: 27
+    lat: "46.76906"
+    lng: "23.617232"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point26:
+    glass: false
+    id: 28
+    lat: "46.767954"
+    lng: "23.628646"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point27:
+    glass: false
+    id: 29
+    lat: "46.77134"
+    lng: "23.625354"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point28:
+    glass: false
+    id: 30
+    lat: "46.777769"
+    lng: "23.610991"
+    metal: true
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point29:
+    glass: false
+    id: 31
+    lat: "46.762972"
+    lng: "23.572557"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point30:
+    glass: true
+    id: 32
+    lat: "46.755179"
+    lng: "23.578389"
+    metal: true
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point31:
+    glass: false
+    id: 33
+    lat: "46.761469"
+    lng: "23.614056"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001285429924"
+    website: ""
+
+point32:
+    glass: true
+    id: 34
+    lat: "46.755527"
+    lng: "23.576"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100003495344499"
+    website: ""
+
+point33:
+    glass: false
+    id: 35
+    lat: "46.776993"
+    lng: "23.611926"
+    metal: false
+    name: "Carrefour Market Mărăști"
+    other: "Becuri, Neoane"
+    paper: false
+    plastic: false
+    point_type: 2
+    schedule_sat: "08:00-22:00"
+    schedule_sun: "09:00-18:00"
+    schedule_week: "08:00-22:00"
+    user_uid: "1057172198"
+    website: "http://www.carrefour.ro/magazin/carrefour-market-cluj-marasti-53.html"
+
+point34:
+    glass: false
+    id: 36
+    lat: "46.779631"
+    lng: "23.624795"
+    metal: true
+    name: ""
+    other: ""
+    paper: false
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000470276969"
+    website: ""
+
+point35:
+    glass: false
+    id: 37
+    lat: "46.78221"
+    lng: "23.614281"
+    metal: false
+    name: "Kaufland Cluj II"
+    other: "Baterii"
+    paper: false
+    plastic: false
+    point_type: 2
+    schedule_sat: "07:30-22:00"
+    schedule_sun: "08:00-22:00"
+    schedule_week: "07:30-22:00"
+    user_uid: "1057172198"
+    website: "http://www.kaufland.ro/"
+
+point36:
+    glass: true
+    id: 38
+    lat: "46.77692"
+    lng: "24.698331"
+    metal: false
+    name: ""
+    other: ""
+    paper: false
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000022682294"
+    website: ""
+
+point37:
+    glass: false
+    id: 39
+    lat: "46.765133"
+    lng: "23.544479"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1230086012"
+    website: ""
+
+point38:
+    glass: false
+    id: 40
+    lat: "46.763143"
+    lng: "23.583132"
+    metal: false
+    name: ""
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000534815782"
+    website: ""
+
+point39:
+    glass: false
+    id: 41
+    lat: "46.756442"
+    lng: "23.591037"
+    metal: false
+    name: ""
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000534815782"
+    website: ""
+
+point40:
+    glass: false
+    id: 42
+    lat: "46.774921"
+    lng: "23.620949"
+    metal: false
+    name: "Camin Economica 1, Economica 2, Arte"
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: "9:00-14:00"
+    user_uid: "100000534815782"
+    website: "http://viridivos.ro/"
+
+point41:
+    glass: false
+    id: 43
+    lat: "46.782489"
+    lng: "23.622301"
+    metal: false
+    name: "Cămine  Mărăști 1F, 2B"
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: "9:00-14:00"
+    user_uid: "100000534815782"
+    website: "http://viridivos.ro/"
+
+point42:
+    glass: false
+    id: 44
+    lat: "46.762414"
+    lng: "23.580769"
+    metal: false
+    name: "Hașdeu cămine 1,2,4,5,6,14,16,17"
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: "9:00-14:00"
+    user_uid: "100000534815782"
+    website: "http://viridivos.ro/"
+
+point43:
+    glass: false
+    id: 45
+    lat: "46.755549"
+    lng: "23.587142"
+    metal: false
+    name: "Cămine Observavor 2,3,4,5,7"
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: "9:00-14:00"
+    user_uid: "100000534815782"
+    website: "http://viridivos.ro/"
+
+point44:
+    glass: false
+    id: 46
+    lat: "46.749609"
+    lng: "23.577647"
+    metal: false
+    name: "Liceul Waldorf"
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: "9:00-14:00"
+    user_uid: "100000534815782"
+    website: "http://viridivos.ro/"
+
+point45:
+    glass: false
+    id: 47
+    lat: "46.791565"
+    lng: "23.599485"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001027693026"
+    website: ""
+
+point46:
+    glass: false
+    id: 48
+    lat: "46.785302"
+    lng: "23.584547"
+    metal: false
+    name: ""
+    other: "Becuri, baterii"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001027693026"
+    website: ""
+
+point47:
+    glass: true
+    id: 49
+    lat: "44.445199"
+    lng: "26.111271"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000986594438"
+    website: ""
+
+point48:
+    glass: true
+    id: 50
+    lat: "46.571886"
+    lng: "26.914997"
+    metal: false
+    name: ""
+    other: ""
+    paper: false
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000986594438"
+    website: ""
+
+point49:
+    glass: true
+    id: 51
+    lat: "44.444489"
+    lng: "26.131993"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1838197422"
+    website: ""
+
+point50:
+    glass: true
+    id: 52
+    lat: "44.43006"
+    lng: "26.135101"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1838197422"
+    website: ""
+
+point51:
+    glass: true
+    id: 53
+    lat: "44.424368"
+    lng: "26.13008"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1838197422"
+    website: ""
+
+point52:
+    glass: true
+    id: 54
+    lat: "44.430148"
+    lng: "26.135166"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1838197422"
+    website: ""
+
+point53:
+    glass: true
+    id: 55
+    lat: "44.422785"
+    lng: "26.130456"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1838197422"
+    website: ""
+
+point54:
+    glass: true
+    id: 56
+    lat: "44.458612"
+    lng: "26.131507"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1838197422"
+    website: ""
+
+point55:
+    glass: false
+    id: 57
+    lat: "44.462986"
+    lng: "26.101432"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000708850078"
+    website: ""
+
+point56:
+    glass: true
+    id: 58
+    lat: "46.761907"
+    lng: "23.606138"
+    metal: false
+    name: ""
+    other: "Haine"
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1057172198"
+    website: ""
+
+point57:
+    glass: false
+    id: 59
+    lat: "46.760308"
+    lng: "23.584715"
+    metal: false
+    name: ""
+    other: "Haine"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1057172198"
+    website: ""
+
+point58:
+    glass: true
+    id: 60
+    lat: "44.521112"
+    lng: "26.02953"
+    metal: true
+    name: "Ecorampa"
+    other: "metale feroase si neferoase, textile, anvelope, baterii, deee-uri"
+    paper: true
+    plastic: true
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1749996866"
+    website: "http://www.environ.ro/ecorampa"
+
+point59:
+    glass: false
+    id: 61
+    lat: "44.429239"
+    lng: "26.143147"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1153082058"
+    website: ""
+
+point60:
+    glass: false
+    id: 62
+    lat: "46.784693"
+    lng: "23.613074"
+    metal: false
+    name: ""
+    other: "haine"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001204627828"
+    website: ""
+
+point61:
+    glass: false
+    id: 63
+    lat: "46.785134"
+    lng: "23.612865"
+    metal: false
+    name: ""
+    other: "haine"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001204627828"
+    website: ""
+
+point62:
+    glass: true
+    id: 64
+    lat: "44.43695"
+    lng: "26.110319"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000519351662"
+    website: ""
+
+point63:
+    glass: true
+    id: 65
+    lat: "45.644073"
+    lng: "25.597685"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point64:
+    glass: true
+    id: 66
+    lat: "45.641736"
+    lng: "25.592605"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point65:
+    glass: false
+    id: 67
+    lat: "47.044613"
+    lng: "21.937637"
+    metal: false
+    name: "Str Teiului nr 12"
+    other: "Ulei alimentar folosit"
+    paper: false
+    plastic: false
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: "16:00-20:00"
+    user_uid: "100000534815782"
+    website: "http://wwvw.viridivos.ro"
+
+point66:
+    glass: true
+    id: 68
+    lat: "45.737331"
+    lng: "21.23819"
+    metal: false
+    name: ""
+    other: ""
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1220966108"
+    website: ""
+
+point67:
+    glass: true
+    id: 69
+    lat: "45.703782"
+    lng: "21.189896"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1220966108"
+    website: ""
+
+point68:
+    glass: false
+    id: 70
+    lat: "45.704168"
+    lng: "21.182845"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1220966108"
+    website: ""
+
+point69:
+    glass: false
+    id: 71
+    lat: "45.734276"
+    lng: "21.257831"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1220966108"
+    website: ""
+
+point70:
+    glass: false
+    id: 72
+    lat: "45.725716"
+    lng: "21.284729"
+    metal: true
+    name: ""
+    other: ""
+    paper: false
+    plastic: false
+    point_type: 1
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "1220966108"
+    website: ""
+
+point71:
+    glass: true
+    id: 73
+    lat: "44.415266"
+    lng: "26.043929"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100003503181565"
+    website: ""
+
+point72:
+    glass: false
+    id: 74
+    lat: "45.660318"
+    lng: "25.612746"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point73:
+    glass: false
+    id: 75
+    lat: "45.664942"
+    lng: "25.608942"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point74:
+    glass: false
+    id: 76
+    lat: "45.635507"
+    lng: "25.580456"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point75:
+    glass: true
+    id: 77
+    lat: "45.635488"
+    lng: "25.580202"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point76:
+    glass: false
+    id: 78
+    lat: "46.766162"
+    lng: "23.549522"
+    metal: false
+    name: "Profi"
+    other: "baterii, electronice mici"
+    paper: false
+    plastic: false
+    point_type: 2
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001074782317"
+    website: "http://www.profi.ro/"
+
+point77:
+    glass: true
+    id: 79
+    lat: "46.76332"
+    lng: "23.61515"
+    metal: true
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point78:
+    glass: false
+    id: 80
+    lat: "46.074135"
+    lng: "23.578734"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001305700922"
+    website: ""
+
+point79:
+    glass: false
+    id: 81
+    lat: "44.436354"
+    lng: "26.096003"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000591976600"
+    website: ""
+
+point80:
+    glass: false
+    id: 82
+    lat: "44.437162"
+    lng: "26.094597"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000591976600"
+    website: ""
+
+point81:
+    glass: true
+    id: 83
+    lat: "46.776251"
+    lng: "23.611821"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001771014578"
+    website: ""
+
+point82:
+    glass: false
+    id: 84
+    lat: "47.03015"
+    lng: "21.94658"
+    metal: false
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100000605190715"
+    website: ""
+
+point83:
+    glass: false
+    id: 85
+    lat: "46.757007"
+    lng: "23.619417"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point84:
+    glass: false
+    id: 86
+    lat: "46.76035"
+    lng: "23.614041"
+    metal: false
+    name: ""
+    other: "Haine, Pantofi, Jucării"
+    paper: false
+    plastic: false
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point85:
+    glass: false
+    id: 87
+    lat: "46.762107"
+    lng: "23.619065"
+    metal: true
+    name: ""
+    other: ""
+    paper: false
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100002174933434"
+    website: ""
+
+point86:
+    glass: false
+    id: 88
+    lat: "46.755862"
+    lng: "23.548563"
+    metal: true
+    name: ""
+    other: ""
+    paper: true
+    plastic: true
+    point_type: 0
+    schedule_sat: ""
+    schedule_sun: ""
+    schedule_week: ""
+    user_uid: "100001305700922"
+    website: ""

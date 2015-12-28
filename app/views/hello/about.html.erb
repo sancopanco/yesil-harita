@@ -1,0 +1,25 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "about" %>
+  <script type="text/javascript">
+    $(function() {
+      init();
+      initSearch();
+      initMap();
+      $.get(points_path + ".json", function(data) {
+        addPins(data);
+      });
+    });
+  </script>
+<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+     falan filen ...
+     
+    </div>
+    <div class="col-lg-6">
+     
+    </div>
+  </div>
+</div>

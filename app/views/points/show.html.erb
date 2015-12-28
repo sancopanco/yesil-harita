@@ -1,0 +1,21 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "map" %>
+  <script type="text/javascript">
+    local_search = true;
+    $(function() {
+      init();
+      initSearch(local_search);
+      initMap();
+      $.get(points_path + "/<%= @point.id %>.json", function(data) {
+        data = [data];
+        addPins(data);
+        map.setZoom(17);
+        var center = new google.maps.LatLng(data[0]["lat"], data[0]["lng"]);
+        map.setCenter(center);
+        google.maps.event.trigger(markers[0], "click");
+      });
+    });
+  </script>
+<% end %>
+
+<div id="map-canvas"></div>

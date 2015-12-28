@@ -1,0 +1,14 @@
+log/
+tmp/
+vendor/
+public/assets/
+
+
+
+.sass-cache/
+.bundle
+db/*.sqlite3
+
+
+
+config/database.yml

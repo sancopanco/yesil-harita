@@ -1,0 +1,38 @@
+/*================================================================================================= MAP */
+
+#map-canvas {
+  height: 440px;
+  border: 1px solid #ddd;
+}
+
+/*================================================================================================= BLURB */
+
+.blurb h2 {
+  color: #e25a00;
+}
+
+.blurb h4 {
+  margin-top: 40px;
+}
+
+.blurb .table td {
+  vertical-align: middle;
+}
+
+.blurb .huh {
+  padding: 2px 6px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.blurb .huh:hover {
+  background-color: #aaa;
+}
+
+.blurb .tooltip-inner {
+  padding: 10px 6px;
+}
+
+/*================================================================================================= END */

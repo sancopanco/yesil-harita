@@ -1,0 +1,60 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "index" %>
+  <script type="text/javascript">
+    $(function() {
+      $(".huh").tooltip();
+      $(".huh").click(function() {
+        return false;
+      });
+      init();
+      initSearch();
+      initMap();
+      $.get(points_path + ".json", function(data) {
+        addPins(data);
+      });
+    });
+  </script>
+<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 blurb">
+      <h2 class="brand page-title">yeşil harita</h2>
+      <p> Geri dönüşüm haritası</p>
+      <p> Geri dönüşüm noktası  <%= link_to "arayabilir", map_path %>    yada  <%= link_to "ekleyebilirsiniz", add_path %> </p>
+     
+      <h4>test</h4>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><%= image_tag "tree-numbered.png", :alt => "tree icon" %></td>
+            <td>5 geridönüşüm noktası</td>
+            <td><a href="#" class="huh" data-toggle="tooltip" title="">?</a></td>
+          </tr>
+          <tr>
+            <td><%= image_tag "pin-recycle-bin.png", :alt => "recycle bin icon" %></td>
+            <td>Geri dönüşüm noktası</td>
+            <td><a href="#" class="huh" data-toggle="tooltip" title="">?</a></td>
+          </tr>
+          <tr>
+            <td><%= image_tag "pin-recycling-center.png", :alt => "recycling center icon" %></td>
+            <td>Toplama noktası</td>
+            <td><a href="#" class="huh" data-toggle="tooltip" title="">?</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-lg-8">
+      <div id="map-canvas"></div>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=176820222509186";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      <div style="margin-top: 10px;" class="fb-like pull-right" data-href="https://www.facebook.com/yesil-harita" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
+    </div>
+  </div>
+</div>

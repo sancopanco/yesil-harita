@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_uid: MyString
+  point_id: 1
+
+two:
+  user_uid: MyString
+  point_id: 1

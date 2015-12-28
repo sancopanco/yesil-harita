@@ -1,0 +1,156 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "add" %>
+  <script type="text/javascript">
+    $(function() {
+      init();
+      initSearch(true);
+      initMap();
+    });
+  </script>
+  <%= javascript_include_tag "add" %>
+<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5">
+      <h2 class="page-title">Lokasyon ekle</h2>
+
+      <% if current_user %>
+
+        <%= form_for(@point, :html => { :class => "form-horizontal", :role => "form" }) do |f| %>
+          <div class="btn-group btn-group-justified">
+            <a href="#" class="btn btn-success active" data-point-type="0">
+              <%= image_tag "pin-recycle-bin.png", :alt => "recycle bin icon" %>
+              Geri dönüşüm
+            </a>
+            <a href="#" class="btn btn-success" data-point-type="1">
+              <%= image_tag "pin-recycling-center.png", :alt => "recycling center icon" %>
+              Toplama noktası
+            </a>
+          </div>
+
+          <%= f.hidden_field :lat %>
+          <%= f.hidden_field :lng %>
+          <%= f.hidden_field :address %>
+          <%= f.hidden_field :point_type, :value => 0 %>
+
+          <div class="form-group">
+            <label for="address" class="col-lg-3 control-label">Lokasyon <span class="required-field">*</span></label>
+            <div class="col-lg-9">
+              <p class="help-block"><a id="detect" class="btn btn-primary btn-xs" href="#">Konum belirle</a> Bulunduğunuz konumu alır</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="materials" class="col-lg-3 control-label">İçerik <span class="required-field">*</span></label>
+            <div class="col-lg-9">
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :paper %> <%= image_tag "icon-file.png", :alt => "material icon" %> Kağıt
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :plastic %> <%= image_tag "icon-cup.png", :alt => "material icon" %> Plastik
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :metal %> <%= image_tag "icon-magnet.png", :alt => "material icon" %> Metal
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :glass %> <%= image_tag "icon-beaker.png", :alt => "material icon" %> Şişe
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :textiles %> <%= image_tag "icon-bag.png", :alt => "material icon" %> 
+                  Elbise, ayakkabı, oyuncak
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :electrics %> <%= image_tag "icon-camera.png", :alt => "material icon" %> Elektrik, Elektronik
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :batteries %> <%= image_tag "icon-tasks.png", :alt => "material icon" %> Piller, bataryalar
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <%= f.check_box :lights %> <%= image_tag "icon-certificate.png", :alt => "material icon" %> Lambalar, neon
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :other, "Diğer", :class => "col-lg-3 control-label" %>
+            <div class="col-lg-9">
+              <%= f.text_field :other, :class => "form-control", :placeholder => "Lastikler, yağ vb." %>
+            </div>
+          </div>
+
+          <div class="form-group collapse">
+            <%= f.label :name, "Konum ismi", :class => "col-lg-3 control-label" %>
+            <div class="col-lg-9">
+              <%= f.text_field :name, :class => "form-control", :placeholder => "Atık Toplama merkezi" %>
+            </div>
+          </div>
+
+          <div class="form-group collapse">
+            <label for="schedule" class="col-lg-3 control-label">Program</label>
+            <div class="col-lg-3">
+              <%= f.text_field :schedule_week, :class => "form-control", :placeholder => "Pazartesi-Cuma" %>
+            </div>
+            <div class="col-lg-3">
+              <%= f.text_field :schedule_sat, :class => "form-control", :placeholder => "Cumartesi" %>
+            </div>
+            <div class="col-lg-3">
+              <%= f.text_field :schedule_sun, :class => "form-control", :placeholder => "Pazar" %>
+            </div>
+          </div>
+
+          <div class="form-group collapse">
+            <%= f.label :phone, "Telefon", :class => "col-lg-3 control-label" %>
+            <div class="col-lg-9">
+              <%= f.text_field :phone, :class => "form-control", :placeholder => "0212.444.444" %>
+            </div>
+          </div>
+
+          <div class="form-group collapse">
+            <%= f.label :website, "Website", :class => "col-lg-3 control-label" %>
+            <div class="col-lg-9">
+              <%= f.text_field :website, :class => "form-control", :placeholder => "" %>
+            </div>
+          </div>
+
+          <div id="alert" class="alert alert-warning collapse"></div>
+
+          <div class="form-group">
+            <div class="col-lg-offset-3 col-lg-9">
+              <button name="commit" type="submit" class="btn btn-success">Ekle</button>
+            </div>
+          </div>
+        <% end %>
+
+      <% else %>
+
+        <p id="stahp">Konum eklemek içim Facebook ile giriş yapmalısınız.</p>
+        <a href="/auth/facebook" id="sign-in" class="btn btn-primary">
+          <%= image_tag "facebook-icon.png", :alt => "facebook icon" %>
+          Facebook ile bağlan
+        </a>
+
+      <% end %>
+
+    </div>
+    <div class="col-lg-7">
+      <div id="map-canvas"></div>
+    </div>
+  </div>
+</div>

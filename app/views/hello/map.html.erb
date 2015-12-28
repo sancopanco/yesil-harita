@@ -1,0 +1,15 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "map" %>
+  <script type="text/javascript">
+    $(function() {
+      init();
+      initSearch(true);
+      initMap();
+      $.get(points_path + ".json", function(data) {
+        addPins(data);
+      });
+    });
+  </script>
+<% end %>
+
+<div id="map-canvas"></div>

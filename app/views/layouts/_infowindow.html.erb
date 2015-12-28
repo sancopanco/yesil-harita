@@ -1,0 +1,119 @@
+<script id="template" type="text/x-handlebars-template">
+  <div id="infowindow">
+    <div class="list-group">
+      {{#ifequal point_type 0}}
+        <a class="list-group-item active">
+          <h5 class="list-group-item-heading">Geri dönüşüm</h5>
+        </a>
+      {{else}}
+        <a {{#if website}} href="{{website}}" target="_blank" {{/if}} class="list-group-item active">
+          <h5 class="list-group-item-heading">
+            {{#if name}}
+              {{name}}
+            {{else}}
+              {{#ifequal point_type 1}}
+                Toplama merkezi
+              {{/ifequal}}
+            {{/if}}
+          </h5>
+        </a>
+      {{/ifequal}}
+      {{#if paper}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-file.png", :alt => "material icon" %> Kağıt
+          </p>
+        </a>
+      {{/if}}
+      {{#if plastic}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-cup.png", :alt => "material icon" %> Plastik
+          </p>
+        </a>
+      {{/if}}
+      {{#if metal}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-magnet.png", :alt => "material icon" %> Metal
+          </p>
+        </a>
+      {{/if}}
+      {{#if glass}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-beaker.png", :alt => "material icon" %> Şişe
+          </p>
+        </a>
+      {{/if}}
+      {{#if textiles}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-bag.png", :alt => "material icon" %> Elbise, ayakkabı, oyuncak
+          </p>
+        </a>
+      {{/if}}
+      {{#if electrics}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-camera.png", :alt => "material icon" %> Elektrik, Elektronik
+          </p>
+        </a>
+      {{/if}}
+      {{#if batteries}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-tasks.png", :alt => "material icon" %> Piller, bataryalar
+          </p>
+        </a>
+      {{/if}}
+      {{#if lights}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-certificate.png", :alt => "material icon" %> Lambalar, neon
+          </p>
+        </a>
+      {{/if}}
+      {{#if other}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <%= image_tag "icon-check.png", :alt => "material icon" %> {{other}}
+          </p>
+        </a>
+      {{/if}}
+      {{#if schedule_week}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            <span class="pull-left">Pazartesi-Cuma</span>
+            <span>{{schedule_week}}</span>
+          </p>
+          {{#if schedule_sat}}
+            <p class="list-group-item-text">
+              <span class="pull-left">Cumartesi</span>
+              <span>{{schedule_sat}}</span>
+            </p>
+          {{/if}}
+          {{#if schedule_sun}}
+            <p class="list-group-item-text">
+              <span class="pull-left">Pazar</span>
+              <span>{{schedule_sun}}</span>
+            </p>
+          {{/if}}
+        </a>
+      {{/if}}
+      {{#if phone}}
+        <a class="list-group-item">
+          <p class="list-group-item-text">
+            {{phone}}
+          </p>
+        </a>
+      {{/if}}
+    </div>
+    <% if current_user %>
+      <button id="report" type="button" class="btn btn-success btn-sm" data-point-id="{{id}}">Hata bildir</button>
+    <% else %>
+      <a id="report" href="/auth/facebook" class="btn btn-success btn-sm" data-point-id="{{id}}">Hata bildir</a>
+    <% end %>
+    <%= image_tag "avatar.png", :class => "img-avatar pull-right", :alt => "user avatar", :title => "Ekleyen ?" %>
+  </div>
+</script>
