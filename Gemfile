@@ -7,7 +7,8 @@ gem 'rails', '3.1.0'
 
 gem 'unicorn'
 gem 'thin'
-gem 'sqlite3'
+#gem 'sqlite3'
+gem 'pg'
 gem 'omniauth-facebook'
 
 # Gems used only for assets and not required
@@ -19,6 +20,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'rails_12factor', group: :production
 
 # Use unicorn as the web server
 # gem 'unicorn'

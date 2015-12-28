@@ -19,7 +19,7 @@ function init() {
   infowindow = new google.maps.InfoWindow();
   $(document).on('click', '#report', function() {
     var button = $(this);
-    button.html('Te rog așteaptă...');
+    button.html('...');
     $.post('/report.json', { point_id: button.attr('data-point-id') }, function(data) {
       if (data.status == 'success') {
         button.html('Hata bildirildi');
@@ -88,7 +88,7 @@ function addPins(data) {
   google.maps.event.addListener(map, "click", function() {
     infowindow.close();
   });
-  var pins = ["pin-recycle-bin.png", "pin-recycling-center.png", "pin-store.png"];
+  var pins = ["pin-recycle-bin.png", "pin-recycling-center.png"];
   var titles = ["Geridönüşüm", "Toplama noktası"];
   Handlebars.registerHelper("ifequal", function(op1, op2, options) {
     if (op1 === op2) {
