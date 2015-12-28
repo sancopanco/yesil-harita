@@ -3,19 +3,19 @@
 class HelloController < ApplicationController
 
   def index
-    @page_name = "Harta punctelor de reciclare | "
-    @page_description = "Harta punctelor de reciclare la care oricine poate contribui"
+    @page_name = "Geri dönüşüm noktaları haritası | "
+    @page_description = ""
     @wrapped = true
   end
 
   def map
-    @page_name = "Harta | "
-    @page_description = "Găsește un punct de reciclare pe hartă"
+    @page_name = "Harita | "
+    @page_description = ""
   end
 
   def about
-    @page_name = "Despre | "
-    @page_description = "Despre yesil-harita"
+    @page_name = "Nedir | "
+    @page_description = ""
     @wrapped = true
   end
 
