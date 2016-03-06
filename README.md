@@ -5,7 +5,7 @@ Open map of recycling points in Rails
 
 ### What's this? ###
 
-[yesil-harita](http://yesil-harita/) is a map of recycling points to which anyone can contribute.
+[yesil-harita](https://yesilharita.herokuapp.com/) is a map of recycling points to which anyone can contribute.
 
 ![yesil-harita screenshot](https://raw.github.com/g4b1nagy/yesil-harita/master/screenshot.png)
 

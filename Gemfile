@@ -7,9 +7,11 @@ gem 'rails', '3.1.0'
 
 gem 'unicorn'
 gem 'thin'
-#gem 'sqlite3'
+
 gem 'pg'
 gem 'omniauth-facebook'
+
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
