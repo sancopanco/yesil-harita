@@ -9,7 +9,7 @@ Open map of recycling points in Rails
 
 
 
-Based on Google Maps, it provides a simple interface that allows users to look for and add recycling points to a map. This will hopefully encourage more people to recycle by making it less of a pain in the a*s to find a place to take your excess plastic or paper to :)
+Based on Google Maps, it provides a simple interface that allows users to look for and add recycling points to a map. This will hopefully encourage more people to recycle by making it less of a pain in the ass to find a place to take your excess plastic or paper to :)
 
 ### Getting your hands dirty ###
 
